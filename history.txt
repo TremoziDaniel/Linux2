@@ -1,0 +1,21 @@
+   0 mkdir -p /home/user/start
+   1 echo "Start" > /home/user/start/1
+   2 date >> /home/user/start/1
+   3 mkdir -p /opt/task
+   4 cp /home/user/start/1.txt /opt/task/start.txt
+   5 cp /home/user/start/1 /opt/task/start.txt
+   6 ls -a
+   7 ls -a / | tail -4 >> /opt/task/start.txt 
+   8 cat /opt/task/start.txt 
+   9 chmod g+w /opt/task/start.txt 
+  10 chmod -100 +022 /opt/task/start.txt
+  11 chmod u-r /opt/task/start.txt 
+  12 chmod 011 /opt/task/start.txt 
+  13 ls -s /opt/task/start.txt 
+  14 ls -s /opt/task/
+  15 ls --help
+  16 ls -l /opt/task/
+  17 chmod g+w /opt/task/start.txt 
+  18 ls -l /opt/task/
+  19 cat /opt/task/start.txt 
+  20 history > /tmp/history
